@@ -1,5 +1,27 @@
+$underlined: underline;
+$brown-border: 3px solid brown;
+
 .square {
   height: 500px;
   width: 500px;
   background-color: #672e6d;
+  .blob_1 {
+    font : {
+      size: 40px;
+      family: cursive;
+    }
+    text : {
+      align: right;
+      decoration: $underlined;
+    }
+    border: $brown-border;
+  }
+  .blob_2 {
+    font-size: 90px;
+    text : {
+      align: center;
+      decoration: $underlined;
+    }
+    border: $brown-border
+  }
 }

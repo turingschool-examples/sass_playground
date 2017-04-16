@@ -1,0 +1,17 @@
+.square {
+  height: 500px;
+  width: 500px;
+  background-color: #672e6d; }
+  .square .blob_1 {
+    font-size: 40px;
+    font-family: cursive;
+    text-align: right;
+    text-decoration: underline;
+    border: 3px solid brown; }
+  .square .blob_2 {
+    font-size: 90px;
+    text-align: center;
+    text-decoration: underline;
+    border: 3px solid brown; }
+
+/*# sourceMappingURL=custom.css.map */
