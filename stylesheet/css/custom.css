@@ -5,13 +5,13 @@
   .square .blob_1 {
     font-size: 40px;
     font-family: cursive;
-    text-align: right;
+    text-align: center;
     text-decoration: underline;
-    border: 3px solid brown; }
+    border: 5px dashed green; }
   .square .blob_2 {
     font-size: 90px;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: line-through;
     border: 3px solid brown; }
 
 /*# sourceMappingURL=custom.css.map */

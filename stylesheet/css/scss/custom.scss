@@ -1,6 +1,14 @@
 $underlined: underline;
 $brown-border: 3px solid brown;
 
+@mixin text_components($underlined, $brown-border) {
+  text : {
+    align: center;
+    decoration: $underlined;
+  }
+  border: $brown-border;
+}
+
 .square {
   height: 500px;
   width: 500px;
@@ -10,18 +18,10 @@ $brown-border: 3px solid brown;
       size: 40px;
       family: cursive;
     }
-    text : {
-      align: right;
-      decoration: $underlined;
-    }
-    border: $brown-border;
+    @include text_components($underlined, 5px dashed green);
   }
   .blob_2 {
     font-size: 90px;
-    text : {
-      align: center;
-      decoration: $underlined;
-    }
-    border: $brown-border
+    @include text_components(line-through, $brown-border);
   }
 }
