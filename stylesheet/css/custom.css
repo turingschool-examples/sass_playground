@@ -7,11 +7,13 @@
     font-family: cursive;
     text-align: center;
     text-decoration: underline;
-    border: 5px dashed green; }
+    border: 3px solid brown;
+    border: 9px dotted blue; }
   .square .blob_2 {
     font-size: 90px;
     text-align: center;
     text-decoration: line-through;
-    border: 3px solid brown; }
+    border: 3px solid brown;
+    border: 5px dashed green; }
 
 /*# sourceMappingURL=custom.css.map */
